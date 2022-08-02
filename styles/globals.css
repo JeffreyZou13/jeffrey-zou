@@ -10,15 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 code {
   background: #fafafa;
   border-radius: 5px;
@@ -28,8 +19,64 @@ code {
 
 .container {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 20px;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #09095A;
+}
+
+.header-name {
+  float: left;
+  margin: 0;
+  font-size: larger;
+}
+
+.menu {
+  float: right;
+}
+
+.menu > a {
+  margin: 0 3px;
+}
+
+.header-line {
+  clear: both;
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
+.social-button {
+  display: inline-flex;
   align-items: center;
+  border-radius: 3px;
+  color: white;
+  padding: 0.5em 0.8em;
+  margin-right: 0.5em;
+}
+
+.social-button > svg {
+  margin-right: 0.3em;
+}
+
+.linkedin {
+  background-color: #0E76A8;
+}
+
+.github {
+  background-color: #24292F;
+}
+
+.email {
+  background-color: #305F39;
 }
