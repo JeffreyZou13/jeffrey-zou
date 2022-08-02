@@ -1,0 +1,12 @@
+.container {
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.main-container {
+    height: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

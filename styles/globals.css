@@ -17,16 +17,6 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
-.container {
-  height: 100vh;
-  padding-top: 20px;
-}
-
-.main-container {
-  max-width: 700px;
-  margin: auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -35,25 +25,8 @@ h1 {
   color: #09095A;
 }
 
-.header-name {
-  float: left;
-  margin: 0;
-  font-size: larger;
-}
-
-.menu {
-  float: right;
-}
-
-.menu > a {
-  margin: 0 3px;
-}
-
-.header-line {
-  clear: both;
-  border: none;
-  height: 1px;
-  background-color: black;
+.home-container {
+  flex: 1;
 }
 
 .social-button {
