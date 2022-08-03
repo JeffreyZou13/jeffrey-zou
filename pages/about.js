@@ -1,8 +1,4 @@
 import Image from 'next/image'
-import aboutMePic from '/public/aboutme.JPG'
-import rafting from '/public/rafting.jpeg'
-import hiking from '/public/hiking.JPG'
-import whiteface from '/public/whiteface.jpeg'
 
 export default function About() {
   return (
@@ -10,7 +6,7 @@ export default function About() {
       <h1>About Me</h1>
       <div className="about-container">
         <div className="about-image-container">
-          <Image src={aboutMePic} alt="Picture of me" />
+          <Image src='/aboutme.JPG' alt="Picture of me" height={250} width={200} />
         </div>
         <div className="about-text">
           <p>Hey! I'm Jeffrey Zou (I also go by Jeff). I was born and raised in Queens, New York. I am a full-stack web developer.</p>
@@ -19,13 +15,13 @@ export default function About() {
       </div>
       <div className="grid-images">
         <div className="about-grid-image">
-          <Image src={rafting} alt="Whitewater rafting" width={200} height={200} className="about-grid-image-content" />
+          <Image src='/rafting.jpeg' alt="Whitewater rafting" width={200} height={200} className="about-grid-image-content" />
         </div>
         <div className="about-grid-image">
-          <Image src={hiking} alt="Hiking" width={200} height={200} className="about-grid-image-content" />
+          <Image src='/hiking.JPG' alt="Hiking" width={200} height={200} className="about-grid-image-content" />
         </div>
         <div className="about-grid-image">
-          <Image src={whiteface} alt="Hiking" width={200} height={200} className="about-grid-image-content" />
+          <Image src='/whiteface.jpeg' alt="Hiking" width={200} height={200} className="about-grid-image-content" />
         </div>
       </div>
     </div>
