@@ -9,7 +9,7 @@ export default function Header() {
         <Link href="/"><a>Home</a></Link>
         <Link href="/about"><a>About</a></Link>
         <Link href="/projects"><a>Projects</a></Link>
-        <Link href="/resume"><a>Resume</a></Link>
+        <a href="/resume.pdf" target="_blank">Resume</a>
       </div>
       <hr className={styles['header-line']} />
     </header>
