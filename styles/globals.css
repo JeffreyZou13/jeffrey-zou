@@ -18,14 +18,19 @@ code {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline 0.15em rgba(85,26,139, 0);
+  transition: text-decoration-color 300ms;
+}
+
+a:hover {
+  text-decoration-color: rgba(85,26,139, 1);
 }
 
 h1 {
   color: #09095A;
 }
 
-.home-container {
+.content-container {
   flex: 1;
 }
 
@@ -36,6 +41,7 @@ h1 {
   color: white;
   padding: 0.5em 0.8em;
   margin-right: 0.5em;
+  text-decoration: none;
 }
 
 .social-button > svg {
@@ -52,4 +58,108 @@ h1 {
 
 .email {
   background-color: #305F39;
+}
+
+.about-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.about-image-container {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.about-text {
+  width: 66.66666667%;
+  padding: 0 30px;
+}
+
+.grid-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-grid-image {
+  height: 200px;
+  width: 200px;
+}
+
+.project-item {
+  min-height: 300px;
+  width: 700px;
+  display: flex;
+}
+
+.project-item-image {
+  width: 50%;
+  height: auto;
+}
+
+.project-item-description {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.tech-badge {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  margin-top: 0;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.react {
+  background-color: skyblue;
+}
+
+.node {
+  background-color: #09095A;
+}
+
+.mongo {
+  background-color: #82D173;
+}
+
+.cassandra {
+  background-color: #0F03FC;
+}
+
+.rabbit {
+  background-color: orange;
+}
+
+.java {
+  background-color: #890007;
+}
+
+.angular {
+  background-color: #A50104;
+}
+
+.mysql {
+  background-color: #02809C;
+}
+
+.javascript {
+  background-color: #FCBA04;
+}
+
+.python {
+  background-color: #306998;
+}
+
+.chrome {
+  background-color: #2563CC;
 }

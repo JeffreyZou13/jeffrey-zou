@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home() {
   return (
-    <div className="home-container">
+    <div className="content-container">
       <h1>Hello there!</h1>
       <p>Welcome to my page. Come get to know a little about me and take a look at my projects</p>
       <p>Check out some of my social links below:</p>

@@ -1,14 +1,15 @@
 import styles from './Header.module.css'
+import Link from 'next/link'
 
 export default function Header() {
   return (
     <header>
       <p className={styles['header-name']}> Jeffrey Zou </p>
       <div className={styles['menu']}>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="/resume">Resume</a>
+        <Link href="/"><a>Home</a></Link>
+        <Link href="/about"><a>About</a></Link>
+        <Link href="/projects"><a>Projects</a></Link>
+        <Link href="/resume"><a>Resume</a></Link>
       </div>
       <hr className={styles['header-line']} />
     </header>
