@@ -4,7 +4,7 @@ export default function Projects() {
 			<h1>Projects</h1>
 			<div className="grid-images">
 				<div className="project-item">
-					<img src="/stackoverflow.PNG" className="project-item-image" />
+					<img src="/stackoverflow.PNG" className="project-item-image" alt="StackOverflow" />
 					<div className="project-item-description">
 						<a href="https://github.com/JeffreyZou13/StackOverflow-Clone" target="_blank">
 							<h3>StackOverflow</h3>
@@ -20,7 +20,7 @@ export default function Projects() {
 					</div>
 				</div>
 				<div className="project-item">
-					<img src="/comictoon.PNG" className="project-item-image" />
+					<img src="/comictoon.PNG" className="project-item-image" alt="ComicToon" />
 					<div className="project-item-description">
 						<a href="https://github.com/Fanngdai/ComicToon" target="_blank">
 							<h3>ComicToon</h3>
@@ -33,7 +33,7 @@ export default function Projects() {
 					</div>
 				</div>
 				<div className="project-item">
-					<img src="/inlinked.png" className="project-item-image" />
+					<img src="/inlinked.png" className="project-item-image" alt="InLinked" />
 					<div className="project-item-description">
 						<a href="https://github.com/swuleung/InLinked" target="_blank">
 							<h3>InLinked</h3>
@@ -46,7 +46,7 @@ export default function Projects() {
 					</div>
 				</div>
 				<div className="project-item">
-				<img src="https://raw.githubusercontent.com/Fanngdai/Jotto.cloud/8c6f9683e206cfac2de0fceb6b684e4258a09ca6/front-end/src/assets/Logo.png" className="project-item-image" />
+				<img src="https://raw.githubusercontent.com/Fanngdai/Jotto.cloud/8c6f9683e206cfac2de0fceb6b684e4258a09ca6/front-end/src/assets/Logo.png" alt="Jotto" className="project-item-image" />
 					<div className="project-item-description">
 						<a href="https://github.com/Fanngdai/Jotto.cloud" target="_blank">
 							<h3>Jotto</h3>
@@ -59,7 +59,7 @@ export default function Projects() {
 					</div>
 				</div>
 				<div className="project-item">
-				<img src="https://raw.githubusercontent.com/swuleung/ac.js/ab4a17301afb549fc9e4d2e1e1241f899e35026e/Malex/images/malex-icon.png" className="project-item-image" />
+				<img src="https://raw.githubusercontent.com/swuleung/ac.js/ab4a17301afb549fc9e4d2e1e1241f899e35026e/Malex/images/malex-icon.png" alt="Malex" className="project-item-image" />
 					<div className="project-item-description">
 						<a href="https://github.com/swuleung/ac.js" target="_blank">
 							<h3>Malex</h3>
