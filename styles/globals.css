@@ -126,7 +126,7 @@ h1 {
 }
 
 .react {
-  background-color: skyblue;
+  background-color: #124AB2;
 }
 
 .node {
@@ -134,7 +134,7 @@ h1 {
 }
 
 .mongo {
-  background-color: #82D173;
+  background-color: #062E35;
 }
 
 .cassandra {
@@ -142,7 +142,7 @@ h1 {
 }
 
 .rabbit {
-  background-color: orange;
+  background-color: #855805;
 }
 
 .java {
@@ -158,7 +158,7 @@ h1 {
 }
 
 .javascript {
-  background-color: #FCBA04;
+  background-color: #747401;
 }
 
 .python {

@@ -16,7 +16,7 @@ export default function Projects() {
 						</div>
 						<div className="project-item-description">
 							<a href="https://github.com/JeffreyZou13/StackOverflow-Clone" target="_blank">
-								<h3>StackOverflow</h3>
+								<h2>StackOverflow</h2>
 							</a>
 							<p className="tech-badge react">React</p>
 							<p className="tech-badge node">Node</p>
@@ -34,7 +34,7 @@ export default function Projects() {
 						</div>
 						<div className="project-item-description">
 							<a href="https://github.com/Fanngdai/ComicToon" target="_blank">
-								<h3>ComicToon</h3>
+								<h2>ComicToon</h2>
 							</a>
 							<p className="tech-badge react">React</p>
 							<p className="tech-badge java">Java</p>
@@ -49,7 +49,7 @@ export default function Projects() {
 						</div>
 						<div className="project-item-description">
 							<a href="https://github.com/swuleung/InLinked" target="_blank">
-								<h3>InLinked</h3>
+								<h2>InLinked</h2>
 							</a>
 							<p className="tech-badge angular">Angular</p>
 							<p className="tech-badge node">Node</p>
@@ -64,7 +64,7 @@ export default function Projects() {
 						</div>
 						<div className="project-item-description">
 							<a href="https://github.com/Fanngdai/Jotto.cloud" target="_blank">
-								<h3>Jotto</h3>
+								<h2>Jotto</h2>
 							</a>
 							<p className="tech-badge angular">Angular</p>
 							<p className="tech-badge java">Java</p>
@@ -79,7 +79,7 @@ export default function Projects() {
 						</div>
 						<div className="project-item-description">
 							<a href="https://github.com/swuleung/ac.js" target="_blank">
-								<h3>Malex</h3>
+								<h2>Malex</h2>
 							</a>
 							<p className="tech-badge javascript">JavaScript</p>
 							<p className="tech-badge python">Python</p>
